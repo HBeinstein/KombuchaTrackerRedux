@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import KegPintsLeft from "./KegPintsLeft";
 
 function KegDetail(props){
   const { keg, onClickingDelete, onClickingEdit} = props;
@@ -13,6 +14,8 @@ function KegDetail(props){
       <h3>{keg.price}</h3>
       <h3>{keg.alcoholContent}</h3>
 
+      <hr/>
+      <h3><KegPintsLeft/></h3>
       {/* <button onClick={() => onClickingEdit()}>Update Keg</button>
       <button onClick={() => onClickingDelete(keg.id) }>Delete Keg</button> */}
       <hr/>
