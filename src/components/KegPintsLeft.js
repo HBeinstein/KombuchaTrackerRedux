@@ -5,7 +5,7 @@ class KegPintsLeft extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        pintsLeft: 128
+        pintsLeft: 124
     };
   }
 
