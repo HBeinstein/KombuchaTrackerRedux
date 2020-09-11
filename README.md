@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# _Inventory Tracker_
 
-## Available Scripts
+#### _A virtual museum using Cooper Hewitt's "Get Random" API, 8/2/20_
 
-In the project directory, you can run:
+#### By _**Hannah Beinstein**_
 
-### `npm start`
+## Description
+ArtLoader is a web app I developed to practice making API calls. The program utilizes the Cooper Hewitt Museum's free API, which, when called, returns a random art object from their collection. In the app, when a user clicks the "get new artwork" button, and API call is made, and the artwork that is returned is displayed to the screen. If they'd like, the user can then fetch another artwork by clicking the button again. You can view the project live on gh-pages at: https://hbeinstein.github.io/artLoader/.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup/Installation Requirements
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+API Instructions:
+1. Get a unique API key by creating a free account and registering at https://collection.cooperhewitt.org/api/keys/register/.  
 
-### `npm test`
+Setup/Installation Instructions:
+* Clone the project from its GitHub repository (https://github.com/HBeinstein/artLoader)
+* Open in your code editor of choice.
+* Run "npm install" in terminal to install all necessary project modules 
+* Create a .env file at the top level of your directory, and place your API key in the file using the formatting: "API_KEY = YOUR-API-KEY-HERE". The program will then be able to run using your unique API key. **If you plan to track your project using Git, be sure to create a .gitignore file in the project directory and include ".env" to ensure your personal API key is not published online!**
+* Run "npm build" and then "npm start" in your terminal to create a server and view project live.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Software Requirements
+1. Internet browser
+2. A code editor like VSCode or Atom to view or edit the codebase.
+3. A free CooperHewitt.org account and API key
 
-### `npm run build`
+## Known Bugs
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Hoping to add a loader in the future to minimize white background "flashing" between API calls._
+_Planning to constrain imgs displayed by size to prevent distortion of certain imgs that don't fit frame proportions_
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Support and contact details
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Please contact me through my Github or at hannah.beinstein@gmail.com._
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _jQuery_
+* _Webpack_
+* _Babel_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+MIT License.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2020 **_Hannah Beinstein_**
