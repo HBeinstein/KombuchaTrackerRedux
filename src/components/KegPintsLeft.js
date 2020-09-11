@@ -24,13 +24,10 @@ class KegPintsLeft extends React.Component {
       </React.Fragment>
     )
   }
-
 }
 
-// KegDetail.propTypes = {
-//   keg: PropTypes.object,
-//   onClickingDelete: PropTypes.func,
-//   onClickingEdit: PropTypes.func
-// };
+KegPintsLeft.propTypes = {
+  handlePintsLeft: PropTypes.func,
+};
 
 export default KegPintsLeft;

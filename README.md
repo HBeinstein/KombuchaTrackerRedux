@@ -1,28 +1,21 @@
-# _Inventory Tracker_
+# _Kombucha Tracker_
 
 #### _A virtual museum using Cooper Hewitt's "Get Random" API, 8/2/20_
 
 #### By _**Hannah Beinstein**_
 
 ## Description
-ArtLoader is a web app to track inventory
+Kombucha Tracker is a web app to track kombucha keg inventory and update Kombucha amounts as customers purchase pints. 
 
 ## Setup/Installation Requirements
- 
-API Instructions:
-1. Get a unique API key by creating a free account and registering at https://collection.cooperhewitt.org/api/keys/register/.  
-
-Setup/Installation Instructions:
-* Clone the project from its GitHub repository (https://github.com/HBeinstein/artLoader)
-* Open in your code editor of choice.
-* Run "npm install" in terminal to install all necessary project modules 
-* Create a .env file at the top level of your directory, and place your API key in the file using the formatting: "API_KEY = YOUR-API-KEY-HERE". The program will then be able to run using your unique API key. **If you plan to track your project using Git, be sure to create a .gitignore file in the project directory and include ".env" to ensure your personal API key is not published online!**
-* Run "npm build" and then "npm start" in your terminal to create a server and view project live.
 
 Software Requirements
 1. Internet browser
 2. A code editor like VSCode or Atom to view or edit the codebase.
 3. A free CooperHewitt.org account and API key
+
+## App Wireframe
+![GitHub Logo](./Wireframe.png)
 
 ## Known Bugs
 
