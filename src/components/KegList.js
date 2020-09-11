@@ -6,14 +6,12 @@ function KegList(props){
 
   return (
     <React.Fragment>
+      <h2>Add a keg below and click on any keg to see more details!</h2>
       <hr/>
       {props.kegList.map((keg) =>
         <Keg
           whenKegClicked = { props.onKegSelection }
           name={keg.name}
-          brand={keg.brand}
-          price={keg.price}
-          alcoholContent={keg.alcoholContent}
           id={keg.id}
           key={keg.id}/>
       )}

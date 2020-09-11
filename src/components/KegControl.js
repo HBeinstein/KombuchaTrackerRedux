@@ -36,10 +36,11 @@ class KegControl extends React.Component {
                   formVisibleOnPage: false });
   }
 
-  // handleChangingSelectedKeg = (id) => {
-  //   const selectedKeg = this.state.masterKegList.filter(keg => keg.id === id)[0];
-  //   this.setState({selectedKeg: selectedKeg});
-  // }
+  handleChangingSelectedKeg = (id) => {
+    const selectedKeg = this.state.masterKegList.filter(keg => keg.id === id)[0];
+    console.log(selectedKeg);
+    this.setState({selectedKeg: selectedKeg});
+  }
 
   // handleDeletingKeg = (id) => {
   //   const newMasterKegList = this.state.masterKegList.filter(keg => keg.id !== id);
