@@ -8,7 +8,7 @@
 ArtLoader is a web app to track inventory
 
 ## Setup/Installation Requirements
-
+ 
 API Instructions:
 1. Get a unique API key by creating a free account and registering at https://collection.cooperhewitt.org/api/keys/register/.  
 
