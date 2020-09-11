@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import KombuchaControl from "./KombuchaControl"
+import KegControl from "./KegControl"
 
 function App(){
   return (
     <React.Fragment>
       <Header />
-      <KombuchaControl />
+      <KegControl />
     </React.Fragment>
   );
 }
