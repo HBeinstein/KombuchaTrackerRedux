@@ -5,7 +5,7 @@
 #### By _**Hannah Beinstein**_
 
 ## Description
-Kombucha Tracker is a web app to track kombucha keg inventory and update Kombucha amounts as customers purchase pints. 
+Kombucha Tracker is a web app to track kombucha keg inventory and update Kombucha amounts as customers purchase pints. A user has the ability to view a list of all available kegs, add a new keg to the list, see more specific details about a keg by clicking on its name, and see the remaining amount of pints left in a specific keg. 
 
 ## Setup/Installation Requirements
 
