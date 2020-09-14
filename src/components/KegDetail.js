@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import KegPintsLeft from "./KegPintsLeft";
 
 function KegDetail(props){
-  const { keg, onClickingDelete, onClickingEdit} = props;
+  const { keg } = props;
   console.log(keg);
 
   return (
@@ -15,9 +15,9 @@ function KegDetail(props){
       <h3>{keg.alcoholContent}</h3>
 
       <hr/>
-      <h3><KegPintsLeft/></h3>
-      {/* <button onClick={() => onClickingEdit()}>Update Keg</button>
-      <button onClick={() => onClickingDelete(keg.id) }>Delete Keg</button> */}
+      <KegPintsLeft 
+        handlePintsLeft = { props.handlePintsLeft } pintsLeft = { keg.pintsLeft }
+      />
       <hr/>
     </React.Fragment>
   );
@@ -25,8 +25,7 @@ function KegDetail(props){
 
 KegDetail.propTypes = {
   keg: PropTypes.object,
-  onClickingDelete: PropTypes.func,
-  onClickingEdit: PropTypes.func
+  handlePintsLeft: PropTypes.func
 };
 
 export default KegDetail;

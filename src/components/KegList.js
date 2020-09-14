@@ -9,11 +9,11 @@ function KegList(props){
       <h2>Add a keg below and click on any keg to see more details!</h2>
       <hr/>
       {props.kegList.map((keg) =>
-        <Keg
-          whenKegClicked = { props.onKegSelection }
-          name={keg.name}
-          id={keg.id}
-          key={keg.id}/>
+          <Keg 
+            whenKegClicked = { props.onKegSelection } 
+            name = {keg.name}
+            id = {keg.id}
+            key = {keg.id}/>
       )}
     </React.Fragment>
   );

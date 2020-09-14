@@ -1,33 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-class KegPintsLeft extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        pintsLeft: 124
-    };
-  }
-
-  handlePintsLeft = () =>{
-    if(this.state.pintsLeft > 0){
-      const newPintsLeft = this.state.pintsLeft - 1;
-      this.setState({pintsLeft: newPintsLeft});
-    }
-  }
-
-  render(){
-    return (
-      <React.Fragment>
-        <p>{this.state.pintsLeft} pints left in this keg!</p>
-        <button onClick={ this.handlePintsLeft }>Remove pint (if sold)</button>
-      </React.Fragment>
-    )
-  }
+function KegPintsLeft(props){
+  return (
+    <React.Fragment>
+      <p>{props.pintsLeft} pints left in this keg!</p>
+      <button onClick={ props.handlePintsLeft }>Remove pint (if sold)</button>
+    </React.Fragment>
+  )
 }
 
 KegPintsLeft.propTypes = {
   handlePintsLeft: PropTypes.func,
+  pintsLeft: PropTypes.number
 };
 
 export default KegPintsLeft;

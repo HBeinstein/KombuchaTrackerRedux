@@ -1,11 +1,11 @@
 import React from "react";
 
-function Header(){
+function Header(props){
   const headerStyles = {
   }
   
   return (
-    <h1 style={headerStyles}>Kombucha Keg Tracker</h1>
+    <h1> Kombucha Keg Tracker </h1>
   );
 }
 

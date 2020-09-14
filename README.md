@@ -9,12 +9,20 @@ Kombucha Tracker is a web app to track kombucha keg inventory and update Kombuch
 
 ## Setup/Installation Requirements
 
-Software Requirements
+Software Requirements:
 1. Internet browser
 2. A code editor like VSCode or Atom to view or edit the codebase.
+3. You'll need to have React installed on your computer. If you haven't already, download React here: https://reactjs.org/
+
+To Run:
+1. Open project in code editor of choice
+2. Run "npm install" to install all necessary dependencies
+3. Run "npm start" to open project in browser
+
 
 ## App Wireframe
-![GitHub Logo](./Wireframe.png)
+See a component wireframe for this project below:
+![Project Wireframe](./Wireframe.png)
 
 ## Support and contact details
 
