@@ -13,9 +13,7 @@ function Keg(props){
 }
 
 Keg.propTypes = {
-  names: PropTypes.string,
-  location: PropTypes.string,
-  issue: PropTypes.string,
+  name: PropTypes.string,
   id: PropTypes.string, // new PropType
   whenKegClicked: PropTypes.func // new PropType
 };
