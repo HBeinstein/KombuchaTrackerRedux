@@ -3,6 +3,9 @@ import Keg from "./Keg";
 import PropTypes from "prop-types";
 
 function KegList(props){
+
+  console.log(props)
+
   return (
     <React.Fragment>
       <h2>Add a keg below and click on any keg to see more details!</h2>
