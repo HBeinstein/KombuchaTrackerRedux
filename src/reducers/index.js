@@ -2,7 +2,7 @@ import boardListReducer from './board-list-reducer';
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
-  masterBoardList: boardListReducer,
+  masterKegList: kegListReducer,
 });
 
 export default rootReducer;
