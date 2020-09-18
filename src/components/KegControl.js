@@ -85,4 +85,5 @@ const mapStateToProps = state => {
   }  
 }
 
+
 export default KegControl;
