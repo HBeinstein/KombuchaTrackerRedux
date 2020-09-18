@@ -14,6 +14,7 @@ function KegList(props){
             name = {keg.name}
             id = {keg.id}
             key = {keg.id}/>
+            
       )}
     </React.Fragment>
   );
