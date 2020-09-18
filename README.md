@@ -34,8 +34,8 @@ _Please contact me through my Github or at hannah.beinstein@gmail.com._
 * _CSS_
 * _JavaScript_
 * _Webpack_
-* _React_
 * _Redux_
+* _React_
 
 ### License
 

@@ -6,7 +6,7 @@ function KegPintsLeft(props){
     <React.Fragment>
       <p>{props.pintsLeft} pints left in this keg!</p>
       <button onClick={ props.handlePintsLeft }>Remove pint (if sold)</button>
-    </React.Fragment>
+    </React.Fragment> 
   )
 }
 
