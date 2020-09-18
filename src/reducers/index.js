@@ -1,4 +1,4 @@
-import boardListReducer from './board-list-reducer';
+import kegListReducer from './keg-list-reducer';
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
